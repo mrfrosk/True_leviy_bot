@@ -18,7 +18,7 @@ def handle_text(message):
 @bot.message_handler(commands=["help"])
 def bot_help(message):
     bot.send_message(message.chat.id, "чтобы  отфильтровать сообщения комманда /get пример:\n"
-                                      "/get О кулаках")
+                                      "/get Текст сообщения")
 
 
 bot.polling()
