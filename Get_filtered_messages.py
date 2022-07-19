@@ -1,6 +1,6 @@
 from asyncio import set_event_loop, new_event_loop
 
-from data import api_id, api_hash, app_name, channel_name
+from config import api_id, api_hash, app_name, channel_name
 from telethon.sync import TelegramClient
 
 
