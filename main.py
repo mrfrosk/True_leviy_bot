@@ -21,10 +21,17 @@ def bot_help(message):
                                       "/get Текст сообщения")
 
 
+
 @bot.message_handler(commands=["test"])
 def test_func(message):
     nameUsers = message.chat.id
     print(nameUsers)
+
+
+def new_test():
+    print("New test")
+
+
 
 
 bot.polling()
